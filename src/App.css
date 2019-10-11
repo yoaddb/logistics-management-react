@@ -1,22 +1,44 @@
 .App {
   text-align: center;
+  border: 1px solid #000000;
+  background-color: lightgray;
+  margin: 30px 200px 0px 200px;
 }
 
-.App-logo {
-  height: 40vmin;
+.btn1 {
+  color: #ffffff;
+  background-color: blue;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 150px;
+  margin: 10px 0px 10px 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.radio1 {
+  margin: 0px 10px 0px 10px;
 }
 
-.App-link {
-  color: #09d3ac;
+.err1 {
+  color: red;
+  font-size: 11px;
+}
+
+.details {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.card {
+  width: 18rem;
+  margin: 5px 0px 5px 0px;
+  align-items: center
+}
+
+.btn2 {
+  color: #ffffff;
+  background-color: blue;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: right
 }
